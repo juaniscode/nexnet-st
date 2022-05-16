@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    background-image: url(  /public/img/nn-fondo-blanco.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body{
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NexNet ST | Inicio</title>
+    <title>NexNet ST</title>
 
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="57x57" href="public/img/favicon/apple-icon-57x57.png">
@@ -27,7 +27,10 @@
     <meta name="theme-color" content="#ffffff">
 
     <!--CSS Stylesheet-->
-    <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="stylesheet" href="public/css/styles.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/b5c317d11c.js" crossorigin="anonymous"></script>
 </head>
 
 <!--Body Code-->
@@ -35,14 +38,17 @@
 
     <!--Header Code-->
     <header>
-        <img src="/public/img/nn-logo-celeste-transp.png" alt="Logo">
+        <div class="logo-container">
+            <a href="index.html">
+                <img class="logo" src="public/img/nn-logo-celeste-transp.png" alt="Logo">
+            </a>
+        </div>
+
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="soluciones.html">Soluciones</a></li>
-                <li><a href="tienda.html">Tienda</a></li>
-                <li><a href="clientes.html">Clientes</a></li>
+                <li><a href="https://www.tiendanexnet.com.ar" target="_blank">Tienda</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
@@ -51,47 +57,33 @@
     <!--Main Code-->
     <main>
 
-        <section>
-            <h2>Nosotros</h2>
-            <img>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora incidunt delectus maiores numquam dolorem dolore quisquam. Incidunt omnis mollitia amet excepturi deleniti? Quod eos accusantium a omnis. Similique, dignissimos culpa.</p>
+        <!--Carrusel Code-->
+        <section class="carrusel">
+
         </section>
 
-        <section>
-            <h2>Soluciones</h2>
-            <img>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora incidunt delectus maiores numquam dolorem dolore quisquam. Incidunt omnis mollitia amet excepturi deleniti? Quod eos accusantium a omnis. Similique, dignissimos culpa.</p>
-        </section>
+        <!--Consulta de Orden Code-->
+        <section class="consulta-orden">
+            <h1>Verifica el estado de tu orden de servicio</h1>
 
-        <section>
-            <h2>Tienda</h2>
-            <img>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora incidunt delectus maiores numquam dolorem dolore quisquam. Incidunt omnis mollitia amet excepturi deleniti? Quod eos accusantium a omnis. Similique, dignissimos culpa.</p>
+            <!--G Taller Code-->
+            <button onclick="gtaller_modal();" id="gtaller_modal" data-gt-ventana="1" style="font-size: 1rem; font-weight: 600; line-height: 1.5; display: inline-block; padding: .625rem 1.25rem; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out; text-align: center; vertical-align: middle; white-space: nowrap; border: 1px solid transparent; border-radius: .25rem; color: #fff; border-color:#838484; background-color:#838484; box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08); cursor: pointer;"><i class="fa-regular fa-file-lines"></i><br>Consultar</button>
+            <script src="https://taller.gestioo.net/gwidget/consulta_web/js/gtaller_modal.init.js?v=1"></script>
         </section>
-
-        <section>
-            <h2>Clientes</h2>
-            <img>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora incidunt delectus maiores numquam dolorem dolore quisquam. Incidunt omnis mollitia amet excepturi deleniti? Quod eos accusantium a omnis. Similique, dignissimos culpa.</p>
-        </section>
-
-        <section>
-            <h2>Contacto</h2>
-            <img>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora incidunt delectus maiores numquam dolorem dolore quisquam. Incidunt omnis mollitia amet excepturi deleniti? Quod eos accusantium a omnis. Similique, dignissimos culpa.</p>
-        </section>
-
-        <div>
-            <button onclick="gtaller_modal();" id="gtaller_modal" data-gt-ventana="1" style="font-size: 1rem; font-weight: 600; line-height: 1.5; display: inline-block; padding: .625rem 1.25rem; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out; text-align: center; vertical-align: middle; white-space: nowrap; border: 1px solid transparent; border-radius: .25rem; color: #fff; border-color: #5e72e4; background-color: #5e72e4; box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08); cursor: pointer;">
-                CONSULTAR ORDEN</button>
-                <script src="https://taller.gestioo.net/gwidget/consulta_web/js/gtaller_modal.init.js?v=1"></script>
-        </div>
 
     </main>
 
     <!--Footer Code-->
     <footer>
+        <div class="social-media">
+            <a href="contacto.html"><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://wa.link/xkvr69"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/nexnet.st/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/nexnet.st/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
         <p>2004 - 2022 © NexNet ST - Todos los derechos reservados.</p>
+        <p>Bahia Blanca | Buenos Aires | Argentina</p>
     </footer>
     
 </body>

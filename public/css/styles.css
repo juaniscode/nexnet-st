@@ -1,11 +1,31 @@
 *{
+    /*Basic Reset*/
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    background-image: url(  /public/img/nn-fondo-blanco.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
-body{
+.logo{
+    width: 20%;
+}
+
+main{
+    background-color: #D6E0E2;
+}
+
+h1{
+    color: #7A7A7A;
+}
+
+.carrusel{
+
+}
+
+.consulta-orden{
+    background-color: #BBC1C3;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
 }

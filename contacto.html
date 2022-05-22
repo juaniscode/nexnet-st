@@ -58,91 +58,96 @@
     <main>
 
         <!--Contact Form Code-->
-        <form class="form-contact">
 
-            <div class="input-name">
-                <label for="input-name"></label>
-                <input id="input-name" type="text" name="name" placeholder="Nombre" required>
-                <br>
-                <br>
-            </div>
+        <div class="form-container">
+            
+            <form class="form-contact">
+                
+                <div class="input-name">
+                    <label for="input-name"></label>
+                    <input id="input-name" type="text" name="name" placeholder="Nombre" required>
+                    <br>
+                    <br>
+                </div>
+                
+                <div class="input-surname">
+                    <label for="input-surname"></label>
+                    <input id="input-surname" type="text" name="surname" placeholder="Apellido" required>
+                    <br>
+                    <br>
+                </div>
 
-            <div class="input-surname">
-                <label for="input-surname"></label>
-                <input id="input-surname" type="text" name="surname" placeholder="Apellido" required>
-                <br>
-                <br>
-            </div>
+                <div class="input-email">
+                    <label for="input-email"></label>
+                    <input id="input-email" type="email" name="email" placeholder="E-Mail" required>
+                    <br>
+                    <br>
+                </div>
 
-            <div class="input-email">
-                <label for="input-email"></label>
-                <input id="input-email" type="email" name="email" placeholder="E-Mail" required>
-                <br>
-                <br>
-            </div>
+                <div class="input-phone">
+                    <label for="input-phone"></label>
+                    <input id="input-phone" type="tel" placeholder="Telefono" required>
+                    <br>
+                    <br>
+                </div>
 
-            <div class="input-phone">
-                <label for="input-phone"></label>
-                <input id="input-phone" type="tel" placeholder="Telefono" required>
-                <br>
-                <br>
-            </div>
+                <div class="input-topic">
+                    <input list="input-topic" placeholder="Asunto">
+                    <datalist id="input-topic">
+                        <option value="Pc"></option>
+                        <option value="Celulares"></option>
+                        <option value="Tablets"></option>
+                        <option value="Impresoras"></option>
+                        <option value="Sistemas de Vigilancia"></option>
+                        <option value="Redes"></option>
+                        <option value="Dominios en Internet"></option>
+                        <option value="Hosting"></option>
+                        <option value="Tienda"></option>
+                        <option value="Consultoria Informatica"></option>
+                        <option value="Otro"></option>
+                    </datalist>
+                    <br>
+                    <br>
+                </div>
 
-            <div class="input-topic">
-                <input list="input-topic" placeholder="Asunto">
-                <datalist id="input-topic">
-                    <option value="Pc"></option>
-                    <option value="Celulares"></option>
-                    <option value="Tablets"></option>
-                    <option value="Impresoras"></option>
-                    <option value="Sistemas de Vigilancia"></option>
-                    <option value="Redes"></option>
-                    <option value="Dominios en Internet"></option>
-                    <option value="Hosting"></option>
-                    <option value="Tienda"></option>
-                    <option value="Consultoria Informatica"></option>
-                    <option value="Otro"></option>
-                </datalist>
-                <br>
-                <br>
-            </div>
+                <div class="input-comments">
+                    <label for="input-comments"></label>
+                    <textarea id="input-comments" placeholder="Agregue su comentario..." rows="5" required></textarea>
+                    <br>
+                    <br>
+                </div>
 
-            <div class="input-comments">
-                <label for="input-comments"></label>
-                <textarea id="input-comments" placeholder="Agregue su comentario..." rows="5" required></textarea>
-                <br>
-                <br>
-            </div>
+                <div class="input-file">
+                    <input id="input-file" type="file">
+                    <br>
+                    <br>
+                </div>
 
-            <div class="input-file">
-                <input id="input-file" type="file">
-                <br>
-                <br>
-            </div>
+                <div class="input-submit">
+                    <input id="input-submit" type="submit" value="Enviar">
+                    <br>
+                    <br>
+                </div>
 
-            <div class="input-submit">
-                <input id="input-submit" type="submit" value="Enviar">
-                <br>
-                <br>
-            </div>
+                <div class="input-reset">
+                    <input id="input-reset" type="reset" value="Limpiar">
+                    <br>
+                    <br>
+                </div>
 
-            <div class="input-reset">
-                <input id="input-reset" type="reset" value="Resetear">
-                <br>
-                <br>
-            </div>
+            </form>
 
-        </form>
+        </div>
 
     </main>
     
     <!--Footer Code-->
     <footer>
         <div class="social-media">
-            <a href="contacto.html"><i class="fa-regular fa-envelope"></i></a>
-            <a href="https://wa.link/xkvr69"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://www.facebook.com/nexnet.st/"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/nexnet.st/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="contacto.html" class="fa-email"><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://wa.link/xkvr69" class="fa-whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/nexnet.st/" class="fa-facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/nexnet.st/" class="fa-instagram"><i class="fa-brands fa-instagram"></i></a>
         </div>
 
         <p>2004 - 2022 © NexNet ST - Todos los derechos reservados.</p>

@@ -1,5 +1,5 @@
+/*BASIC RESET*/
 *{
-    /*Basic Reset*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -9,6 +9,7 @@
     width: 20%;
 }
 
+/*MAIN STYLES*/
 main{
     background-color: #D6E0E2;
 }
@@ -26,6 +27,24 @@ h1{
     text-align: center;
 }
 
+/*FOOTER STYLES*/
+
 footer{
     text-align: center;
+}
+
+.fa-email{
+    color: grey;
+}
+
+.fa-whatsapp{
+    color: green;
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-instagram{
+    color: orangered;
 }

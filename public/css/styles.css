@@ -72,7 +72,7 @@ a {
 }
 
 .logo{
-    width: 35%;
+    width: 28%;
 }
 
 .nav{
@@ -105,21 +105,21 @@ footer{
 }
 
 footer p{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .fa-email{
-    color: grey;
+    color: #FFFFFF;
 }
 
 .fa-whatsapp{
-    color: green;
+    color: #FFFFFF;
 }
 
 .fa-facebook{
-    color: blue;
+    color: #FFFFFF;
 }
 
 .fa-instagram{
-    color: orangered;
+    color: #FFFFFF;
 }

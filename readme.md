@@ -1,6 +1,6 @@
 Proyecto NexNet Servicios Tecnologicos by JIS
  
-<img src="public/img/branding/logo/nn-logo.png" width=50%/>
+<img src="public/img/branding/logo/nn-logo.png" width=28%/>
 <h2>NexNet Servicios Tecnológicos</h2>
  
 <h2>Enlaces de Interés</h2>

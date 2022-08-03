@@ -20,5 +20,3 @@ Proyecto NexNet Servicios Tecnologicos by JIS
  
 <h3>Juan Ignacio Saldungaray (https://bit.ly/3zcW7iZ)</h3>
 <p>Me dicen Juanchi... Soy de la localidad de Bahía Blanca, al Sur de la Provincia de Buenos Aires, Argentina. Desde joven trabajé en empresas de Servicios y soy Técnico en Armado y Reparación de PC y Celulares, también Emprendedor... Ahora sumando conocimientos en esta hermosa profesión.</p>
-
-NUEVO TESTEO
